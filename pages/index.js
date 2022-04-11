@@ -19,10 +19,12 @@ export default function Home() {
 
       <main className='h-100 bg-stone-900'>
         <Navbar />
-        <TopContent />
-        <AboutUs />
-        <Projects />
-        <Contact />
+        <div className='px-5 space-y-6'>
+          <TopContent />
+          <AboutUs />
+          <Projects />
+          <Contact />
+        </div>
       </main>
 
       <footer>
