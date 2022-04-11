@@ -1,10 +1,11 @@
 import React from 'react'
+import Card from './Card'
 
 function Projects() {
   return (
     <div className='text-white'>
       <h3 className='text-2xl font-bold'>Nosso portifólio</h3>
-
+      {/* <Card /> */}
       <div>
         <img src="" alt="Foto do projeto"/>
         <p>Descrição do projeto</p>
