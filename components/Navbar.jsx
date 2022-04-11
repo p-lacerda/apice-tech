@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuActive, setMenuActive] = useState(false);
 
   return (
-    <nav className="bg-white border-b-2 border-zinc-800 sm:px-4 py-6 dark:bg-zinc-900 px-6 sticky top-0 z-50">
+    <nav className="bg-white border-b-2 border-zinc-800 sm:px-4 py-6 dark:bg-zinc-900 px-6 fixed w-screen z-20 top-0">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com" className="flex items-center">
           <span className="self-center text-xl font-light whitespace-nowrap dark:text-white">
@@ -47,12 +47,12 @@ function Navbar() {
           </svg>
         </button>
         <div className={`${isMenuActive ? 'null' : 'hidden '} w-full md:block md:w-auto`} id="mobile-menu">
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium">
             <li>
               <Link href="#">
 
                 <a
-                  className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-orange-200 md:p-0 dark:text-white"
                   aria-current="page"
                 >
                   Início

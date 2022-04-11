@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='h-screen bg-zinc-900'>
+      <main className='h-100 bg-stone-900'>
         <Navbar />
         <TopContent />
         <AboutUs />
