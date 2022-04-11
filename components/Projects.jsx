@@ -7,11 +7,22 @@ function Projects() {
       name: 'Recipes App',
       description: 'Esse foi um app de receitas',
       src: 'https://picsum.photos/400/200'
+    },
+    {
+      name: 'Education App',
+      description: 'Esse foi um app de educação',
+      src: 'https://picsum.photos/400/200'
+    },
+    {
+      name: 'Games App',
+      description: 'Esse foi um app de jogos',
+      src: 'https://picsum.photos/400/200'
     }
   ]);
   return (
     <div className='text-white'>
-      <h3 className='text-2xl font-bold'>Nosso portifólio</h3>
+      <h3 className='text-2xl font-bold mb-4'>Nosso portifólio</h3>
+      <div className="carousel carousel-left max-w-md px-8 py-4 space-x-4 bg-stone-900 rounded-box">
       { projects.map((project, i) => (
         <Card
           key={i}
@@ -20,6 +31,7 @@ function Projects() {
           img={project.src}
         />
       ))}
+      </div>
       {/* <div>
         <img src="" alt="Foto do projeto"/>
         <p>Descrição do projeto</p>

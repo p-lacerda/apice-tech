@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
+      <footer className='bg-zinc-900 text-center text-white p-4 border-t-2 border-zinc-800'>
         Feito com ReactJS e TailwindCSS
       </footer>
     </div>

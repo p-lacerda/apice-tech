@@ -2,9 +2,9 @@ import React from 'react';
 
 function Card({ name, description, img }) {
   return (
-    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="flex-col max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 carousel-item w-full">
   <a href="#">
-    <img className="rounded-t-lg" src={ img } alt="" />
+    <img className="rounded-t-lg w-full" src={ img } alt="" />
   </a>
   <div className="p-5">
     <a href="#">
