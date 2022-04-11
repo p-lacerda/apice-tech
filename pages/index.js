@@ -28,7 +28,7 @@ export default function Home() {
       </main>
 
       <footer>
-        
+        Feito com ReactJS e TailwindCSS
       </footer>
     </div>
   )
