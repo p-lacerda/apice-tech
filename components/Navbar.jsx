@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuActive, setMenuActive] = useState(false);
 
   return (
-    <nav className="bg-white border-b-2 border-zinc-800 sm:px-4 py-6 dark:bg-zinc-900 px-6 sticky top-0">
+    <nav className="bg-white border-b-2 border-zinc-800 sm:px-4 py-6 dark:bg-zinc-900 px-6 fixed z-20 w-screen top-0">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com" className="flex items-center">
           <span className="self-center text-xl font-light whitespace-nowrap dark:text-white">
