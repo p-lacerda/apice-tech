@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function TopContent() {
@@ -14,7 +15,7 @@ const englishText = <h3>We are developers for innovative solutions</h3>
       <p className="py-6">
         Nosso time é preparado para fazer com que sua aplicação seja uma ótima experiência para os seus usuários e que seja eficiente.
       </p>
-      <button className="btn bg-orange-400 text-orange-900 hover:bg-orange-300">Descubra mais</button>
+      <button className="btn bg-orange-400 text-orange-900 hover:bg-orange-300"><Link href="#about-us">Descubra mais</Link></button>
     </div>
   </div>
       </div>
