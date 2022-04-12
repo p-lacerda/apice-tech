@@ -9,7 +9,7 @@ function Projects() {
       name: 'Recipes App',
       description: 'Aplicação em React utilizando 2 API´s distintas',
       src: '/RecipesApp.png',
-      link: 'https://app-de-receitas-ten.vercel.app/recipes-app/comidas'
+      link: 'https://app-de-receitas-ten.vercel.app/recipes-app'
     },
     {
       name: 'Techin App',
