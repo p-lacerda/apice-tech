@@ -7,7 +7,7 @@ function Contact() {
   return (
 <div className='text-white max-w-sd'>
       <form className=''>
-        <h3 className='text-2xl font-bold mb-4 text-center'>Contact</h3>
+        <h3 className='text-2xl font-bold mb-4 text-center'>Contato</h3>
         <div className="mb-6">
           <label
             htmlFor="name"
