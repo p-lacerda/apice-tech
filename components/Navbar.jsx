@@ -52,7 +52,7 @@ function Navbar() {
             <li>
               <Link href="#">
                 <a
-                  className="block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+                  className="block py-2 pr-4 pl-3 border-b md:hover:bg-transparent md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:dark:hover:bg-transparent border-gray-700"
                   aria-current="page"
                 >
                   Início
@@ -63,7 +63,7 @@ function Navbar() {
             <li>
               <Link href="#about-us">
                 <a
-                  className="block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+                  className="block py-2 pr-4 pl-3 border-b md:hover:bg-transparent md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:dark:hover:bg-transparent border-gray-700"
                 >
                   Sobre nós
                 </a>
@@ -72,7 +72,7 @@ function Navbar() {
             <li>
               <Link href="#portfolio">
                 <a
-                  className="block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+                  className="block py-2 pr-4 pl-3 border-b md:hover:bg-transparent md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:dark:hover:bg-transparent border-gray-700"
                 >
                   Nosso portifólio
                 </a>
@@ -81,7 +81,7 @@ function Navbar() {
             <li>
               <Link href="#contact">
                 <a
-                  className="block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+                  className="block py-2 pr-4 pl-3 border-b md:hover:bg-transparent md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:dark:hover:bg-transparent border-gray-700"
                 >
                   Contato
                 </a>
