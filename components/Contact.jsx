@@ -5,7 +5,7 @@ function Contact() {
   const englishTitle = 'Contact us';
   const englishName = 'Your name';
   return (
-<div id="contact" className='text-white'>
+<div id="contact" className='text-white scroll-mt-24'>
       <h3 className='text-2xl font-bold mb-4 text-center'>Contato</h3>
       <div className='max-w-lg m-auto'>
       <form className=''>

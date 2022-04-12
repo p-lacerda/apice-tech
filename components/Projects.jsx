@@ -25,8 +25,8 @@ function Projects() {
     }
   ]);
   return (
-    <div className='text-white'>
-      <h3 id="portfolio" className='text-2xl font-bold mb-4 text-center'>Nosso portifólio</h3>
+    <div className='text-white '>
+      <h3 id="portfolio" className='text-2xl font-bold mb-4 text-center scroll-mt-24'>Nosso portifólio</h3>
       <div className="carousel carousel-left sm:max-w-2xl md:max-w-none px-8 md:px-0 py-4 md:py-0 space-x-4 bg-stone-900 rounded-box m-auto">
       { projects.map((project, i) => (
         <Card
