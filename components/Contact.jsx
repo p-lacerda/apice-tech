@@ -8,7 +8,7 @@ function Contact() {
 <div id="contact" className='text-white'>
       <h3 className='text-2xl font-bold mb-4 text-center'>Contato</h3>
       <div className='flex flex-row space-x-6'>
-      <form className='w-1/2'>
+      <form className='w-1/2 m-auto'>
         <div className="mb-6">
           <label
             htmlFor="name"
@@ -75,7 +75,6 @@ function Contact() {
           Enviar
         </button>
       </form>
-      <p className='w-1/2 text-2xl text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed voluptatem quo! Consequuntur voluptate similique iusto debitis architecto eligendi necessitatibus neque sit earum, ipsam assumenda suscipit itaque deleniti repudiandae hic!</p>
       </div>
     </div>
 

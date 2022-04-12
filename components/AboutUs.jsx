@@ -5,12 +5,9 @@ function AboutUs() {
   const englishTitle = 'About Us';
 
   return (
-    <div id="about-us" className='text-white'>
+    <div id="about-us" className='text-white '>
       <h3 className='text-2xl font-bold mb-4 text-center'>Sobre nós</h3>
-      <div className='flex flex-row'>
-
-      </div>
-      <p className='max-w-lg text-center'>Nós da Odessa somos um grupo freelancer focada em desenvolvimento tanto mobile quanto web. Nosso principal objetivo é trazer o que há de melhor no setor de tecnologia, com criatividade, excelência e inovação. Nossa visão é crescer cada vez mais e nos tornarmos referência num dos setores profissionais que mais crescem ao redor do mundo. </p>
+      <p className='max-w-lg text-center m-auto'>Nós da Odessa somos um grupo freelancer focada em desenvolvimento tanto mobile quanto web. Nosso principal objetivo é trazer o que há de melhor no setor de tecnologia, com criatividade, excelência e inovação. Nossa visão é crescer cada vez mais e nos tornarmos referência num dos setores profissionais que mais crescem ao redor do mundo. </p>
       </div>
   )
 }

@@ -12,9 +12,7 @@ const englishText = <h3>We are developers for innovative solutions</h3>
     <div className="max-w-md">
       <h1 className="text-5xl font-bold">Fazemos uma jornada para sua aplicação</h1>
       <p className="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-        excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-        id nisi.
+        Nosso time é preparado para fazer com que sua aplicação seja uma ótima experiência para os seus usuários e que seja eficiente.
       </p>
       <button className="btn bg-orange-400 text-orange-900 hover:bg-orange-300">Descubra mais</button>
     </div>
