@@ -3,9 +3,9 @@ import React from 'react';
 
 function Card({ name, description, img}) {
   return (
-    <div className="flex-col max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 carousel-item w-full">
+    <div className="flex-col max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-zinc-800 dark:border-gray-700 carousel-item w-full">
   <a href="#">
-    <Image className="rounded-t-lg w-full overflow-hidden scale-150 opacity-10 hover:opacity-30 hover:scale-145 delay-100 ease-in-out hover:scale-[1.7] rotate-45" width={400} height={400} src={ img } alt="" />
+    <Image className="rounded-t-lg w-full overflow-hidden scale-150 opacity-10 hover:opacity-30 hover:scale-145 duration-300 ease-in-out hover:scale-[1.7] rotate-45 2s cubic-bezier(0.4, 0, 0.6, 1)" width={400} height={350} src={ img } alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -18,7 +18,7 @@ function Card({ name, description, img}) {
     </p>
     <a
       href="#"
-      className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-transparent dark:border dark:hover:bg-zinc-900 dark:focus:ring-blue-800 duration-300 ease-in-out"
     >
       Acesse o projeto
       <svg

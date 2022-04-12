@@ -6,8 +6,8 @@ import CardEmpty from './CardEmpty';
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      name: 'Recipes App',
-      description: 'Esse foi um app de receitas',
+      name: 'SeuTime FC',
+      description: 'Essa foi uma aplicação para gerenciar partidas de futebol.',
       src: '/TechinApp.png',
       page: 1,
     },
@@ -24,7 +24,7 @@ function Projects() {
   ]);
   return (
     <div className='text-white'>
-      <h3 className='text-2xl font-bold mb-4 text-center'>Nosso portifólio</h3>
+      <h3 id="portfolio" className='text-2xl font-bold mb-4 text-center'>Nosso portifólio</h3>
       <div className="carousel carousel-left sm:max-w-2xl md:max-w-none px-8 md:px-0 py-4 md:py-0 space-x-4 bg-stone-900 rounded-box">
       { projects.map((project, i) => (
         <Card
