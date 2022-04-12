@@ -21,8 +21,8 @@ function Projects() {
   ]);
   return (
     <div className='text-white'>
-      <h3 className='text-2xl font-bold mb-4'>Nosso portifólio</h3>
-      <div className="carousel carousel-left max-w-md md:max-w-none px-8 md:px-0 py-4 md:py-0 space-x-4 bg-stone-900 rounded-box">
+      <h3 className='text-2xl font-bold mb-4 text-center'>Nosso portifólio</h3>
+      <div className="carousel carousel-left sm:max-w-2xl md:max-w-none px-8 md:px-0 py-4 md:py-0 space-x-4 bg-stone-900 rounded-box">
       { projects.map((project, i) => (
         <Card
           key={i}
