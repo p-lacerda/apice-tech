@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="px-5 md:px-0 border-b-2 border-zinc-800 py-6 bg-[#171717] fixed z-20 w-screen top-0">
       <div className="container flex flex-wrap justify-between items-center mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-lg">
         <a href="#" className="flex items-center">
-          <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white">
+          <span className="self-center text-xl font-bold whitespace-nowrap text-white">
             Odessa
           </span>
         </a>
@@ -17,7 +17,7 @@ function Navbar() {
           data-collapse-toggle="mobile-menu"
           type="button"
           onClick={() => setMenuActive(!isMenuActive)}
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-600"
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
