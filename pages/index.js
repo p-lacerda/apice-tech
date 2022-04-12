@@ -17,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='h-100 bg-stone-900'>
-        <Navbar />
+      <Navbar />
+      <main className='h-100 bg-stone-900 sm:max-w-screen-sm md:max-w-screen-xl m-auto'>
         <div className='px-5 space-y-6'>
           <TopContent />
           <AboutUs />
