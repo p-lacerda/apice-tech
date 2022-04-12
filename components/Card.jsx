@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Card({ name, description, img }) {
+function Card({ name, description, img}) {
   return (
-    <div className="flex-col max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 carousel-item w-full">
+    <div className="flex-col max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 carousel-item w-full">
   <a href="#">
     <img className="rounded-t-lg w-full" src={ img } alt="" />
   </a>

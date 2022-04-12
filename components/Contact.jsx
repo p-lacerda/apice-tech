@@ -4,7 +4,7 @@ function Contact() {
 
   const englishTitle = 'Contact us';
   return (
-<div className='text-white'>
+<div className='text-white max-w-sd'>
       <form className=''>
         <h3 className='text-2xl font-bold mb-4 text-center'>Contact</h3>
         <div className="mb-6">

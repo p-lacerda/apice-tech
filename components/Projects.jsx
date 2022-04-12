@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import Card from './Card'
+import CardEmpty from './CardEmpty';
 
 function Projects() {
   const [projects, setProjects] = useState([
     {
       name: 'Recipes App',
       description: 'Esse foi um app de receitas',
-      src: 'https://picsum.photos/400/200'
+      src: 'https://picsum.photos/400/200',
+      page: 1,
     },
     {
       name: 'Education App',
@@ -16,7 +18,7 @@ function Projects() {
     {
       name: 'Games App',
       description: 'Esse foi um app de jogos',
-      src: 'https://picsum.photos/400/200'
+      src: 'https://picsum.photos/400/200',
     }
   ]);
   return (
@@ -29,9 +31,11 @@ function Projects() {
           name={project.name}
           description={project.description}
           img={project.src}
+          page={project.page ?? project.page}
         />
       ))}
       </div>
+
       {/* <div>
         <img src="" alt="Foto do projeto"/>
         <p>Descrição do projeto</p>
