@@ -7,7 +7,7 @@ function Projects() {
   const [projects, setProjects] = useState([
     {
       name: 'Recipes App',
-      description: 'Essa foi uma aplicação para ver e salvar receitas.',
+      description: 'Aplicação em React utilizando 2 API´s distintas',
       src: '/RecipesApp.png',
       link: 'https://app-de-receitas-ten.vercel.app/recipes-app/comidas'
     },
