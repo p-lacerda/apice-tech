@@ -6,7 +6,7 @@ import CardEmpty from './CardEmpty';
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      name: 'SeuTime FC',
+      name: 'SeuTime App',
       description: 'Essa foi uma aplicação para gerenciar partidas de futebol.',
       src: '/TechinApp.png',
       page: 1,
