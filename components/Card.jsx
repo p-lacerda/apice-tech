@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Card({ name, description, img}) {
   return (
     <div className="flex-col max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 carousel-item w-full">
   <a href="#">
-    <img className="rounded-t-lg w-full" src={ img } alt="" />
+    <Image className="rounded-t-lg w-full overflow-hidden scale-150 opacity-10 hover:opacity-30 hover:scale-145 delay-100 ease-in-out hover:scale-[1.7] rotate-45" width={400} height={400} src={ img } alt="" />
   </a>
   <div className="p-5">
     <a href="#">

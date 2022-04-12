@@ -2,23 +2,24 @@ import React, { useState } from 'react'
 import Card from './Card'
 import CardEmpty from './CardEmpty';
 
+
 function Projects() {
   const [projects, setProjects] = useState([
     {
       name: 'Recipes App',
       description: 'Esse foi um app de receitas',
-      src: 'https://picsum.photos/400/200',
+      src: '/TechinApp.png',
       page: 1,
     },
     {
-      name: 'Education App',
-      description: 'Esse foi um app de educação',
-      src: 'https://picsum.photos/400/200'
+      name: 'Techin App',
+      description: 'Estudo de caso no Figma de uma aplicação de Patinetes Elétricos',
+      src: '/TechinApp.png'
     },
     {
-      name: 'Games App',
-      description: 'Esse foi um app de jogos',
-      src: 'https://picsum.photos/400/200',
+      name: 'Gaming App',
+      description: 'Estudo de caso no Figma de uma aplicação sobre jogos digitais',
+      src: '/GamingApp.png',
     }
   ]);
   return (
@@ -31,7 +32,6 @@ function Projects() {
           name={project.name}
           description={project.description}
           img={project.src}
-          page={project.page ?? project.page}
         />
       ))}
       </div>
